@@ -1,0 +1,24 @@
+/* Service Image, Container, Rating, Hover etc. are Styled */
+.service-img {
+    width: 100%;
+    margin: 20px 0;
+    border: 5px #ccc solid;
+  }
+  .img-container {
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+  .rating {
+    color: #FFCC80;
+    font-size: 8px;
+    margin-left: 5px;
+  }
+  .card-container:hover .rating {
+    color: #F48FB1 ;
+  }
+  .footer-button {
+    display: flex;
+    justify-content: space-between;
+  }
